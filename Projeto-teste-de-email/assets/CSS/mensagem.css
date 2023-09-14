@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    background-color: hsl(235, 18%, 26%);
+}
+
+#corpo-principal2 {
+    display: flex;
+    text-align: center;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 3rem;
+    max-width: 350px;
+}
+
+.txt-thanks {
+    font-size: 50px;
+    text-align: left;
+}
+
+.txt-paragrafo {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.btn-sucesso{
+    background-color:  hsl(235, 18%, 26%);
+    color: #ffff;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-family: "Roboto-Bold";
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-sucesso:hover{
+    background-image: linear-gradient(to right, #FF6A3A, #FD5179);
+}
+
+.img-maior{
+    text-align: left;
+}
+
+.img-maior img{
+    width: 60px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}

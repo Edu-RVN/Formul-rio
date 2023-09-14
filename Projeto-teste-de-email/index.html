@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- normalize css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/CSS/global.css">
+  <link rel="stylesheet" href="assets/CSS/conteudo.css">
+  <link rel="stylesheet" href="assets/CSS/remove.css">
+  <link rel="stylesheet" href="assets/CSS/mobile.css">
+  <!-- titulo -->
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+  <main id="corpo-principal">
+    <div class="conteudo">
+      <section id="info-cadastro">
+        <div class="info-texto">
+          <h1 id="texto-principal">Stay updated!</h1>
+          <p>Join 60.000+ product managers receiving monthly updates on:</p>
+          <ul id="lista-vantagem">
+            <li> <img src="assets/images/icon-list.svg" alt=""> Product discovery building what matters </li>
+            <li> <img src="assets/images/icon-list.svg" alt=""> Measuring to ensure updates are a success </li>
+            <li> <img src="assets/images/icon-list.svg" alt=""> And much more! </li>
+          </ul>
+          <div>
+            <p id="txt-email">Email address</p>
+            <input class="botao" id="email" type="email" placeholder="email@company.com">
+            <p id="mensagemValidacao" style="color: red;"></p>
+            <button class="botao" id="toggleElement">Subscribe to monthly newsletter</button>
+          </div>
+        </div>
+        <img id="img-principal" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+        <p id="elementoOculto" class="hidden">Este é o novo elemento que pode ser oculto/mostrado.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="assets/JS/global.js"></script>
+
+</body>
+
+</html>
